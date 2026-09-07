@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marketplace UMB — Emprendimiento estudiantil en un solo lugar</title>
+<meta name="description" content="Marketplace UMB conecta a estudiantes emprendedores con la comunidad universitaria interesada en comprar sus productos y servicios.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <p class="logo">Marketplace<span>UMB</span></p>
+    <nav aria-label="Navegación principal">
+      <ul class="nav-list">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyecto">Proyecto</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <section id="inicio" class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-row">
+      <div class="hero-copy">
+        <p class="eyebrow">Comunidad UMB</p>
+        <h1 id="hero-title">Cada semestre nacen negocios dentro del campus.<br>Ahora tienen un solo lugar donde vivir.</h1>
+        <p class="hero-lede">Marketplace UMB conecta a estudiantes que venden productos caseros, artesanías, tecnología o servicios, con quienes dentro de la universidad quieren comprarles — sin depender de un grupo de WhatsApp más.</p>
+        <a class="btn btn-primary" href="#proyecto">Conocer el proyecto</a>
+      </div>
+      <div class="hero-tags" role="img" aria-label="Categorías del marketplace: comida, moda, tecnología y servicios">
+        <span class="tag tag-mustard">🥐 Comida y snacks</span>
+        <span class="tag tag-sage">👜 Moda y accesorios</span>
+        <span class="tag tag-brick">💻 Tecnología</span>
+        <span class="tag tag-ink">✏️ Servicios estudiantiles</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyecto" class="proyecto" aria-labelledby="proyecto-title">
+    <div class="wrap">
+      <p class="eyebrow">El proyecto</p>
+      <h2 id="proyecto-title">Un canal propio para el emprendimiento estudiantil</h2>
+
+      <div class="proyecto-grid">
+        <article class="proyecto-card">
+          <h3>El problema</h3>
+          <p>Muchos estudiantes de la UMB venden productos propios, pero lo hacen de forma dispersa en redes personales y chats. Quien quiere comprarles casi nunca sabe que existen.</p>
+        </article>
+        <article class="proyecto-card">
+          <h3>El objetivo</h3>
+          <p>Reunir en un mismo espacio a vendedores y compradores de la comunidad universitaria, facilitando publicar, buscar y contactar sin fricción.</p>
+        </article>
+        <article class="proyecto-card">
+          <h3>La solución</h3>
+          <p>Una app tipo marketplace exclusiva para la UMB: perfil de tienda para cada vendedor, publicación con fotos y precio, y contacto directo para cerrar la compra.</p>
+        </article>
+      </div>
+
+      <div class="mvp">
+        <h3>Funcionalidades principales (MVP)</h3>
+        <ol class="mvp-list">
+          <li>Registro con correo institucional UMB.</li>
+          <li>Perfil de vendedor con su mini-tienda.</li>
+          <li>Publicación de productos y servicios con foto y precio.</li>
+          <li>Exploración con filtro por categoría.</li>
+          <li>Detalle del producto con contacto directo al vendedor.</li>
+          <li>Panel de "mis publicaciones" para editar o eliminar.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto" aria-labelledby="contacto-title">
+    <div class="wrap contacto-row">
+      <div class="contacto-copy">
+        <p class="eyebrow">Hablemos</p>
+        <h2 id="contacto-title">¿Tienes un negocio dentro de la UMB o ideas para el proyecto?</h2>
+        <p>Escríbeme y te cuento cómo va Marketplace UMB, o cómo podrías ser parte de la primera versión.</p>
+      </div>
+
+      <form class="contact-form" action="#" method="post" novalidate>
+        <div class="form-field">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+        </div>
+        <div class="form-field">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" autocomplete="email" required>
+        </div>
+        <div class="form-field">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p>Marketplace UMB — Proyecto académico, Universidad Manuela Beltrán.</p>
+    <address>
+      Contacto: <a href="mailto:tucorreo@umb.edu.co">tucorreo@umb.edu.co</a>
+    </address>
+  </div>
+</footer>
+
+</body>
+</html>
